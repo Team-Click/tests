@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-image 설정을 제거 */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    width: 280px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="file"] {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.upload-button {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.flash {
+    margin-top: 10px;
+    color: red;
+}
